@@ -1,0 +1,75 @@
+#mdi {
+  font-family: "Courier New", Courier, monospace;
+}
+
+#navBar {
+  background-color: #AFA8AF;
+}
+ul#navBar{
+  width: 1019px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul#navBar li{
+  display: inline;
+}
+
+li.navItem {
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#editor {
+  height: 400px;
+  width: 1019px;
+  background-color: #0515AC;
+  color: #ffffff;
+}
+
+.document, .border {
+  height: 580px;
+  width: 1004px;
+}
+
+.border-section{
+  color: #ffffff;
+  float: left;
+}
+
+.border-section-rt{
+  color: #ffffff;
+  float:right;
+}
+
+.eol{
+  display: block;
+  clear: both;
+}
+
+.content {
+  color: #ffff50;
+  position:absolute;
+  left: 20px;
+  top: 40px;
+  max-width: 980px;
+  max-height: 560px;
+}
+
+#console {
+  background-color: #00a8af;
+  height: 160px;
+  width: 1019px;
+}
+
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+
+[contenteditable] {
+width:1019px;
+height: 160px;
+overflow: hidden;
+}
